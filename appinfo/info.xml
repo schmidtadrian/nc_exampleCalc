@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>calcexample</id>
+    <name>Calc example</name>
+    <summary>A calc example app</summary>
+    <description><![CDATA[test]]></description>
+    <version>4.0.0</version>
+    <licence>agpl</licence>
+    <author mail="adrian.schmidt@eew-group.com" >Adrian Schmidt</author>
+    <namespace>CalcExample</namespace>
+    <category>tools</category>
+    <bugs>https://github.com</bugs>
+    <dependencies>
+        <nextcloud min-version="16" max-version="19"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>CalcExample</name>
+            <route>calcexample.page.index</route>
+        </navigation>
+    </navigations>
+</info>

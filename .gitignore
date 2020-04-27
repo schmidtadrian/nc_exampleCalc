@@ -1,0 +1,14 @@
+node_modules/
+src/
+.editorconfig
+.eslintrc.js
+.npmignore
+.stylelintrc.js
+Makefile
+babel.config.js
+composer.json
+package-lock.json
+package.json
+webpack.common.js
+webpack.dev.js
+webpack.prod.js
